@@ -1,0 +1,19 @@
+.*
+!/.gitignore
+!.gitattributes
+!.github/
+*.user
+*.o
+*.a
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+bin
+
+# extra for tests
+wwnames.db3
+wwiser.log
+wwnames*
+*.ini
