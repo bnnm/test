@@ -23,6 +23,7 @@ def profile_simple():
     except:
         import profile
     profile.run('wcli.Cli().start()')
+    pass
 
 
 def profile_complex():
