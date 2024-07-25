@@ -15,7 +15,7 @@ class Markdown(object):
         is_pre = False
         is_pre_first = False
 
-        lines.append('<div class="doc markdown">')
+        lines.append('<div class="doc markdown" title="">')
         for line in mlines:
             #header
             if not is_pre:
